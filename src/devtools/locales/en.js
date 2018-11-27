@@ -27,6 +27,9 @@ export default {
         tooltip: '[[{{keys.enter}}]] Submit change'
       }
     },
+    contextMenu: {
+      copyValue: 'Copy Value'
+    },
     quickEdit: {
       number: {
         tooltip: `Quick Edit<br><br>
@@ -42,6 +45,11 @@ export default {
     },
     filter: {
       tooltip: '[[{{keys.ctrl}}]] + [[F]] Filter components by name'
+    }
+  },
+  ComponentInstance: {
+    consoleId: {
+      tooltip: 'Available as <mono>{{id}}</mono> in the console.'
     }
   },
   ComponentInspector: {
